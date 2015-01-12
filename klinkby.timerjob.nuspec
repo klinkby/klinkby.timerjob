@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>Klinkby.TimerJob</id>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
     <title>Klinkby.TimerJob</title>
     <authors>Mads Breusch Klinkby</authors>
     <summary>Core implementation of scheduled timer job specification for worker roles</summary>
@@ -12,8 +12,8 @@
     <tags>klinkby timerjob schedule worker background processing</tags>
   </metadata>
   <files>
-    <file src="bin\release\klinkby.TimerJob.dll" target="lib\net451\klinkby.TimerJob.dll"/>
-    <file src="bin\release\klinkby.TimerJob.pdb" target="lib\net451\klinkby.TimerJob.pdb"/>
-    <file src="bin\release\klinkby.TimerJob.xml" target="lib\net451\klinkby.TimerJob.xml"/>
+    <file src="bin\release\klinkby.TimerJob.dll" target="lib\net452\klinkby.TimerJob.dll"/>
+    <file src="bin\release\klinkby.TimerJob.pdb" target="lib\net452\klinkby.TimerJob.pdb"/>
+    <file src="bin\release\klinkby.TimerJob.xml" target="lib\net452\klinkby.TimerJob.xml"/>
   </files>
 </package>
